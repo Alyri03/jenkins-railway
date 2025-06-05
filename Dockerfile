@@ -10,6 +10,3 @@ RUN apt-get update && \
 
 # Exponer el puerto de Jenkins
 EXPOSE 8080
-
-# Esto marca el directorio como un volumen (opcional pero recomendado)
-VOLUME /var/jenkins_home
